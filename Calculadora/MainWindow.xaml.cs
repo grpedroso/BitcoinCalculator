@@ -26,36 +26,19 @@ namespace Calculadora
         }
         public int Ano { get; set; }
         public int Preco { get; set; }
-        private void Calculator_Bitcoin(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                ComboBoxItem selectedItem = comboBox.SelectedItem as ComboBoxItem;
-                int ano = int.Parse(selectedItem.Content.ToString());
-                double preco = double.Parse(textBox.Text);
-                if (ano == 1)
-                {
-                    preco = preco + (preco * 0.89);
-                }
-                if (ano == 5)
-                {
-                    preco = preco + (preco * 3.71);
-                }
-                if (ano == 10)
-                {
-                    preco = preco + (preco * 110);
-                }
-                MessageBox.Show($"The investment will return ${preco}");
-            }
-            catch (Exception ex)
-            {
-
-                MessageBox.Show($"ERROR{ex}, TRY AGAIN"); 
-            }
-        }
+        
         private void Important(object sender, RoutedEventArgs e)
         {
             MessageBox.Show($"Important: This is a study project that takes past income into account, DO NOT BELIEVE THE INFORMATION");
+        }
+        private void OpenSecondWindow_Click(object sender, RoutedEventArgs e)
+        {
+            // Cria uma nova instância da janela SecondWindow
+            SecondWindow secondWindow = new SecondWindow();
+            // Exibe a nova janela
+            secondWindow.Show();
+            this.Close();
+
         }
     }
 }

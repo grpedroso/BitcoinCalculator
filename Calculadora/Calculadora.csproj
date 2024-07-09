@@ -59,6 +59,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="SecondWindow.xaml.cs">
+      <DependentUpon>SecondWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -71,9 +74,12 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="SecondWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Objects.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -91,7 +97,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Resource Include="bitcoin-logo-bitcoin-icon-transparent-free-png.webp" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -101,19 +106,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="png-transparent-gold-colored-bitcoin-coin-bitcoin-cryptocurrency-monero-initial-coin-offering-bitcoin-medal-gold-metal-thumbnail.png" />
+    <Resource Include="Logo Insta %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CriptoLivraeLiberta.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="bitcoin-logo-bitcoin-icon-transparent-free-png.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="CriptoLivra.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Logo Insta %283%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="CriptoLivraeLiberta.png" />
+    <Resource Include="CriptoLivra-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
