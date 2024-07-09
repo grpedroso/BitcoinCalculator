@@ -24,8 +24,6 @@ namespace Calculadora
         {
             InitializeComponent();
         }
-        public int Ano { get; set; }
-        public int Preco { get; set; }
         
         private void Important(object sender, RoutedEventArgs e)
         {

@@ -20,8 +20,8 @@
             <ComboBoxItem Content="5" />
             <ComboBoxItem Content="10" />
         </ComboBox>
-        <Button Content="Calculate" Click="Calculator_Bitcoin" Margin="188,347,188,0" VerticalAlignment="Top"/>
-        <Button Content="Back" Click="BackToHome" Margin="358,390,358,0" VerticalAlignment="Top" Height="20"/>
+        <Button Content="Calculate" Click="Calculator_Bitcoin" Margin="326,338,326,0" VerticalAlignment="Top" Height="35"/>
+        <Button Content="Back" Click="BackToHome" Margin="675,379,41,0" VerticalAlignment="Top" Height="20"/>
         <TextBox HorizontalAlignment="Center" x:Name="textBox" Margin="0,233,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Image HorizontalAlignment="Left" Height="154" Margin="194,13,0,0" VerticalAlignment="Top" Width="416" Source="/bitcoin-logo-bitcoin-icon-transparent-free-png.png"/>
         <Label Content="CALCULATOR" HorizontalAlignment="Center" Margin="0,135,0,0" VerticalAlignment="Top" FontFamily="Gill Sans Ultra Bold" FontSize="18" Foreground="#FFF28E13"/>
