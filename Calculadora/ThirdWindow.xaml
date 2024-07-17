@@ -13,5 +13,11 @@
                 <GradientStop Color="#FF01DE19" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
+        <Label Content="Se quiser COMPRAR 1 BITCOIN, você vai pagar:" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="20"/>
+        <Label Content="Se quiser VENDER 1 BITCOIN, você vai receber:" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" x:Name="precoCtextBox" Margin="276,83,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="317" Height="83" IsReadOnly="True" TextAlignment="Center" FontSize="48" FontFamily="Segoe UI Black"/>
+        <TextBox HorizontalAlignment="Left" x:Name="precoVtextBox" Margin="278,259,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="317" Height="83" IsReadOnly="True" TextAlignment="Center" FontSize="48" FontFamily="Segoe UI Black"/>
+        <Label Content="R$" HorizontalAlignment="Left" Margin="176,88,0,0" VerticalAlignment="Top" FontSize="48" FontFamily="Segoe UI Black" Foreground="Black"/>
+        <Label Content="R$" HorizontalAlignment="Left" Margin="178,264,0,0" VerticalAlignment="Top" FontSize="48" FontFamily="Segoe UI Black" Foreground="Black"/>
     </Grid>
 </Window>

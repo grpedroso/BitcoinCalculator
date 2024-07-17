@@ -32,22 +32,24 @@ namespace Calculadora
                 double preco = double.Parse(textBox.Text);
                 if (ano == 1)
                 {
-                    preco = preco + (preco * 0.89);
+                    preco = preco * (1 + 145/100);
                 }
                 if (ano == 5)
                 {
-                    preco = preco + (preco * 3.71);
+                    preco = preco * (1 + 895 / 100);
                 }
                 if (ano == 10)
                 {
-                    preco = preco + (preco * 110);
+                    preco = preco * (1 + 29000 / 100);
                 }
-                MessageBox.Show($"The investment will return ${preco}");
+                if (ano == 1) { MessageBox.Show($"Daqui {ano} ano, você tera R$ {preco}"); }
+                else { MessageBox.Show($"Daqui {ano} anos, você tera R$ {preco}"); }
+               
             }
             catch (Exception ex)
             {
 
-                MessageBox.Show($"ERROR{ex}, TRY AGAIN");
+                MessageBox.Show($"ERROR{ex}, TENTE NOVAMENTE");
             }
         }
 

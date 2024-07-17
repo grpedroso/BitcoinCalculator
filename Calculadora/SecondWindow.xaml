@@ -13,20 +13,20 @@
                 <GradientStop Color="#FF01DE19" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Label Content="Projected By Gabriel Pedroso" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" Foreground="Black"/>
+        <Label Content="Projetado por Gabriel Pedroso" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" Foreground="Black"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="386,120,0,0" VerticalAlignment="Top" Width="100"/>
         <ComboBox x:Name="comboBox" Text="Choose" Margin="339,287,339,0" VerticalAlignment="Top" Width="120">
             <ComboBoxItem Content="1" />
             <ComboBoxItem Content="5" />
             <ComboBoxItem Content="10" />
         </ComboBox>
-        <Button Content="Calculate" Click="Calculator_Bitcoin" Margin="326,338,326,0" VerticalAlignment="Top" Height="35"/>
-        <Button Content="Back" Click="BackToHome" Margin="675,379,41,0" VerticalAlignment="Top" Height="20"/>
+        <Button Content="Calcular" Click="Calculator_Bitcoin" Margin="326,338,326,0" VerticalAlignment="Top" Height="35"/>
+        <Button Content="Voltar" Click="BackToHome" Margin="675,379,41,0" VerticalAlignment="Top" Height="20"/>
         <TextBox HorizontalAlignment="Center" x:Name="textBox" Margin="0,233,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Image HorizontalAlignment="Left" Height="154" Margin="194,13,0,0" VerticalAlignment="Top" Width="416" Source="/bitcoin-logo-bitcoin-icon-transparent-free-png.png"/>
-        <Label Content="CALCULATOR" HorizontalAlignment="Center" Margin="0,135,0,0" VerticalAlignment="Top" FontFamily="Gill Sans Ultra Bold" FontSize="18" Foreground="#FFF28E13"/>
-        <Label Content="How many dollars would you like to invest?" HorizontalAlignment="Center" Margin="0,200,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
-        <Label Content="For how many years?" HorizontalAlignment="Center" Margin="0,258,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+        <Label Content="CALCULADORA" HorizontalAlignment="Center" Margin="0,135,0,0" VerticalAlignment="Top" FontFamily="Gill Sans Ultra Bold" FontSize="18" Foreground="#FFF28E13"/>
+        <Label Content="Quantos reais (R$) você deseja investir?" HorizontalAlignment="Center" Margin="0,200,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+        <Label Content="Durante quantos anos?" HorizontalAlignment="Center" Margin="0,258,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
 
     </Grid>
 </Window>

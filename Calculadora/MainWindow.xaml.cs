@@ -38,5 +38,18 @@ namespace Calculadora
             this.Close();
 
         }
+        private void OpenThirdWindow_Click(object sender, RoutedEventArgs e)
+        {
+            // Cria uma nova instância da janela SecondWindow
+            ThirdWindow thirdWindow = new ThirdWindow();            // Exibe a nova janela
+            thirdWindow.Show();
+            this.Close();
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

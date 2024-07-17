@@ -15,11 +15,11 @@
         </Grid.Background>
         <Button Content="CAUTION, CLICK HERE" Click="Important" HorizontalAlignment="Left" Margin="9,34,0,0" VerticalAlignment="Top" Height="35" Width="174" FontFamily="Segoe UI Black" Foreground="Black"/>
         <Label Content="Projected By Gabriel Pedroso" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" Foreground="Black"/>
-        <Button Content="Crypto Charts" HorizontalAlignment="Left" Margin="183,295,0,0" VerticalAlignment="Top" Height="35" Width="174" FontFamily="Arial Black" FontSize="10"/>
-        <Button Content="Why invest your money?" HorizontalAlignment="Center" Margin="0,343,0,0" VerticalAlignment="Top" Height="35" Width="174" FontFamily="Arial Black" FontSize="10"/>
-        <Button Content="Fiat Conversor" HorizontalAlignment="Left" Margin="432,295,0,0" VerticalAlignment="Top" Height="35" Width="174" FontFamily="Arial Black" FontSize="10"/>
-        <Button Content="Investment Brazil Calculator" HorizontalAlignment="Left" Margin="432,240,0,0" VerticalAlignment="Top" Height="35" Width="174" FontFamily="Arial Black" FontSize="10"/>
-        <Button Content="Bitcoin Calculator" Click="OpenSecondWindow_Click" HorizontalAlignment="Left" Margin="183,240,0,0" VerticalAlignment="Top" Width="174" Height="35" FontFamily="Arial Black"/>
+        <Button Content="Grafico Bitcoin" HorizontalAlignment="Left" Margin="183,295,0,0" VerticalAlignment="Top" Height="35" Width="174" FontFamily="Arial Black" FontSize="10"/>
+        <Button Content="Por que investir em bitcoin?" HorizontalAlignment="Center" Margin="0,343,0,0" VerticalAlignment="Top" Height="35" Width="174" FontFamily="Arial Black" FontSize="10"/>
+        <Button Content="Ultimas noticias" HorizontalAlignment="Left" Margin="432,295,0,0" VerticalAlignment="Top" Height="35" Width="174" FontFamily="Arial Black" FontSize="10" Click="Button_Click"/>
+        <Button Content="Cotação atual BTC/BRL" Click="OpenThirdWindow_Click" HorizontalAlignment="Left" Margin="432,240,0,0" VerticalAlignment="Top" Height="35" Width="174" FontFamily="Arial Black" FontSize="10"/>
+        <Button Content="Calculadora Bitcoin" Click="OpenSecondWindow_Click" HorizontalAlignment="Left" Margin="183,240,0,0" VerticalAlignment="Top" Width="174" Height="35" FontFamily="Arial Black"/>
         <Image HorizontalAlignment="Left" Height="169" Margin="260,34,0,0" VerticalAlignment="Top" Width="429" Source="/CriptoLivra-removebg-preview.png"/>
 
     </Grid>
