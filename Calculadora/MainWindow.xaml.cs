@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,7 +25,7 @@ namespace Calculadora
         {
             InitializeComponent();
         }
-        
+
         private void Important(object sender, RoutedEventArgs e)
         {
             MessageBox.Show($"Important: This is a study project that takes past income into account, DO NOT BELIEVE THE INFORMATION");
@@ -51,13 +52,30 @@ namespace Calculadora
         {
             // Cria uma nova instância da janela SecondWindow
             FourthWindow fourthWindow = new FourthWindow();            // Exibe a nova janela
-           fourthWindow.Show();
+            fourthWindow.Show();
             this.Close();
 
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            string url = "https://www.instagram.com/criptolivra/";
+            OpenUrl(url);
+        }
 
+        private void OpenUrl(string url)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
+            }
+            catch (System.Exception ex)
+            {
+                MessageBox.Show($"Failed to open URL: {ex.Message}");
+            }
         }
     }
 }

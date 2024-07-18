@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_00B4406304BA49D5B72D4CBB2CD9E0CA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_32415A9606402CDCC916E792124272B0"
         "OwnerKey" = "8:_BF0DA4776B5647449E1E641B6D9AFDB6"
         "MsmSig" = "8:_UNDEFINED"
@@ -184,12 +190,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CF894E215C62E7EBD81FBAA6523C85D6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_BF0DA4776B5647449E1E641B6D9AFDB6"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -253,6 +253,12 @@
         "OwnerKey" = "8:_5EBC879EB6B916A42381603B4A95160E"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_CF894E215C62E7EBD81FBAA6523C85D6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -271,6 +277,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -287,6 +301,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -316,6 +338,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_00B4406304BA49D5B72D4CBB2CD9E0CA"
+            {
+            "SourcePath" = "8:D:\\CriptoLivra.ico"
+            "TargetName" = "8:CriptoLivra.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_020987C46C3B4D0DAA46DCF8D8C106E8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_32415A9606402CDCC916E792124272B0"
             {
             "AssemblyRegister" = "3:1"
@@ -845,7 +887,7 @@
             "Target" = "8:_BF0DA4776B5647449E1E641B6D9AFDB6"
             "Folder" = "8:_09CE64D5F23B49E59209E9193FC69BEA"
             "WorkingFolder" = "8:_020987C46C3B4D0DAA46DCF8D8C106E8"
-            "Icon" = "8:"
+            "Icon" = "8:_00B4406304BA49D5B72D4CBB2CD9E0CA"
             "Feature" = "8:"
             }
         }
