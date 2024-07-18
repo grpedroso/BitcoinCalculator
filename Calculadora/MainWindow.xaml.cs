@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CriptoLivra;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -76,6 +77,13 @@ namespace Calculadora
             {
                 MessageBox.Show($"Failed to open URL: {ex.Message}");
             }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            SixWindow sixWindow = new SixWindow();            // Exibe a nova janela
+            sixWindow.Show();
+            this.Close();
         }
     }
 }
