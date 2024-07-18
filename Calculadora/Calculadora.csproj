@@ -15,8 +15,8 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\gabri\OneDrive\Área de Trabalho\MeuProjeto\</PublishUrl>
-    <Install>true</Install>
+    <PublishUrl>C:\Users\gabri\OneDrive\Área de Trabalho\CriptoLivra\</PublishUrl>
+    <Install>false</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
@@ -27,11 +27,11 @@
     <MapFileExtensions>true</MapFileExtensions>
     <SupportUrl>https://www.instagram.com/criptolivra/</SupportUrl>
     <TargetCulture>pt-BR</TargetCulture>
-    <ProductName>CriptoLivra App</ProductName>
+    <ProductName>CriptoLivraApp</ProductName>
     <PublisherName>Gabriel Rinco Pedroso</PublisherName>
     <MinimumRequiredVersion>1.0.0.1</MinimumRequiredVersion>
-    <ApplicationRevision>3</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <ApplicationRevision>10</ApplicationRevision>
+    <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
