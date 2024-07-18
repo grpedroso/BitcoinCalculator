@@ -47,6 +47,14 @@ namespace Calculadora
 
         }
 
+        private void OpenFourthWindow_Click(object sender, RoutedEventArgs e)
+        {
+            // Cria uma nova instância da janela SecondWindow
+            FourthWindow fourthWindow = new FourthWindow();            // Exibe a nova janela
+           fourthWindow.Show();
+            this.Close();
+
+        }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 

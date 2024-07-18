@@ -31,7 +31,12 @@ namespace Calculadora
             LoadDataFromAPI();
         }
 
-       
+        private void BackToHome(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
+        }
 
         public async void LoadDataFromAPI()
         {
@@ -44,6 +49,7 @@ namespace Calculadora
 
 
     }
+
 
 
     public class DataAPI

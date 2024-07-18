@@ -90,12 +90,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FourthWindow.xaml.cs">
+      <DependentUpon>FourthWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SecondWindow.xaml.cs">
       <DependentUpon>SecondWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="ThirdWindow.xaml.cs">
       <DependentUpon>ThirdWindow.xaml</DependentUpon>
     </Compile>
+    <Page Include="FourthWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

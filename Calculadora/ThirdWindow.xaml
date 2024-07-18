@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculadora"
         mc:Ignorable="d"
-        Title="Brazil" Height="450" Width="800">
+        Title="CotacaoAtual" Height="450" Width="800">
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -15,9 +15,11 @@
         </Grid.Background>
         <Label Content="Se quiser COMPRAR 1 BITCOIN, você vai pagar:" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="20"/>
         <Label Content="Se quiser VENDER 1 BITCOIN, você vai receber:" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" x:Name="precoCtextBox" Margin="276,83,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="317" Height="83" IsReadOnly="True" TextAlignment="Center" FontSize="48" FontFamily="Segoe UI Black"/>
-        <TextBox HorizontalAlignment="Left" x:Name="precoVtextBox" Margin="278,259,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="317" Height="83" IsReadOnly="True" TextAlignment="Center" FontSize="48" FontFamily="Segoe UI Black"/>
+        <TextBox HorizontalAlignment="Left" x:Name="precoCtextBox" Margin="276,88,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="317" Height="83" IsReadOnly="True" TextAlignment="Center" FontSize="48" FontFamily="Segoe UI Black"/>
+        <TextBox HorizontalAlignment="Left" x:Name="precoVtextBox" Margin="276,264,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="317" Height="83" IsReadOnly="True" TextAlignment="Center" FontSize="48" FontFamily="Segoe UI Black"/>
         <Label Content="R$" HorizontalAlignment="Left" Margin="176,88,0,0" VerticalAlignment="Top" FontSize="48" FontFamily="Segoe UI Black" Foreground="Black"/>
         <Label Content="R$" HorizontalAlignment="Left" Margin="178,264,0,0" VerticalAlignment="Top" FontSize="48" FontFamily="Segoe UI Black" Foreground="Black"/>
+        <Label Content="via BINANCE" HorizontalAlignment="Left" Margin="691,398,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" Foreground="#FFE6FF00"/>
+        <Button Content="Voltar" Click="BackToHome" Margin="675,379,41,0" VerticalAlignment="Top" Height="20"/>
     </Grid>
 </Window>

@@ -24,7 +24,7 @@
         <Button Content="Voltar" Click="BackToHome" Margin="675,379,41,0" VerticalAlignment="Top" Height="20"/>
         <TextBox HorizontalAlignment="Center" x:Name="textBox" Margin="0,233,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Image HorizontalAlignment="Left" Height="154" Margin="194,13,0,0" VerticalAlignment="Top" Width="416" Source="/bitcoin-logo-bitcoin-icon-transparent-free-png.png"/>
-        <Label Content="CALCULADORA" HorizontalAlignment="Center" Margin="0,135,0,0" VerticalAlignment="Top" FontFamily="Gill Sans Ultra Bold" FontSize="18" Foreground="#FFF28E13"/>
+        <Label Content="SIMULADOR" HorizontalAlignment="Center" Margin="0,135,0,0" VerticalAlignment="Top" FontFamily="Gill Sans Ultra Bold" FontSize="18" Foreground="#FFF28E13"/>
         <Label Content="Quantos reais (R$) você deseja investir?" HorizontalAlignment="Center" Margin="0,200,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
         <Label Content="Durante quantos anos?" HorizontalAlignment="Center" Margin="0,258,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
 
