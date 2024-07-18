@@ -25,7 +25,14 @@ namespace Calculadora
             LoadDataFromAPI();
         }
 
-       public float price { get; set; }
+        private void BackToHome(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
+        }
+
+        public float price { get; set; }
 
 
         private void ReaisTextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -33,7 +40,7 @@ namespace Calculadora
             if (float.TryParse(ReaisTextBox.Text, out float input))
             {
                 float result = input/price; // Calcula o quadrado do número
-                BitcoinTextBox.Text = result.ToString();
+                BitcoinTextBox.Text = result.ToString("F8");
             }
             else
             {

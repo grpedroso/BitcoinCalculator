@@ -52,6 +52,7 @@ namespace Calculadora
 
 
 
+
     public class DataAPI
     {
         [JsonProperty("totalAsk")]

@@ -20,5 +20,6 @@
         <Label Content="BITCOINS" HorizontalAlignment="Left" Margin="495,273,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Segoe UI Black" Foreground="#FFFF8304"/>
         <TextBox HorizontalAlignment="Center" x:Name="ReaisTextBox" Margin="0,154,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="180" Height="38"  FontSize="24" TextChanged="ReaisTextBox_TextChanged" />
         <TextBox HorizontalAlignment="Center" x:Name="BitcoinTextBox" Margin="0,277,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="180" Height="38"  FontSize="24" IsReadOnly="True" />
+        <Button Content="Voltar" Click="BackToHome" Margin="675,379,41,0" VerticalAlignment="Top" Height="20"/>
     </Grid>
 </Window>
