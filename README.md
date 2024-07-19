@@ -27,3 +27,6 @@ Technologies Used:
 WPF (Windows Presentation Foundation)
 
 CriptoYa API: Used to get real-time Bitcoin prices.
+
+
+CONTACT TO CONTIBUTION: GABRIELPEDROSOR@GMAIL.COM
